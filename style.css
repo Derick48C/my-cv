@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #131d24;
+  color: white;
+  font-family: 'zawgyi';
+}
+@font-face {
+  font-family: 'zawgyi';
+  src: url('font/zawgyi.ttf');
+}
+.cover-part {
+  padding: 20px;
+  text-align: center;
+  background-color: aqua;
+  background-image: url('pic/derick.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.cover-part h1 {
+  letter-spacing: 0.4em;
+  font-weight: 1000;
+  font-size: 5rem;
+  color: aqua;
+  text-shadow: 2px 8px 8px rgba(141,141,141,0.51);
+  /*transform: skew(-10deg);*/
+  background-color: ;
+  visibility: hidden;
+}
+
+.dp-part {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: aqua;
+  margin: 140px 0 0 20px;
+}
+.dp-part img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+
+.detail-view {
+  padding-left: 122px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: monospace;
+  font-size: 1rem;
+  background-color: #242424;
+  
+}
+.email {
+  text-decoration: underline;
+}
+.body-part {
+  padding: 10px;
+}
+.body-part  h3 {
+  color: orange;
+  font-size: 1.6rem;
+  font-weight: 1000;
+}
+
+.body-part > p {
+  padding: 10px;
+  margin-left: 20px;
+}
+.body-part span {
+  color: aliceblue;
+  font-weight: 1000;
+  font-style: italic;
+  text-decoration: underline;
+}
+.mind-me {
+  padding: 20px;
+}
+.mind-msg {
+  padding: 5px;
+  text-align: center;
+  background-color: #242424;
+}
+.quiz-view {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid grey;
+  display: flex;
+  color: black;
+}
+.opt-one {
+  padding: 10px;
+  font-size: 1.4rem;
+  text-decoration: underline;
+  border-right: 2px solid black;
+}
+.opt-two {
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: #131f32;
+  color: aqua;
+  text-decoration: 3px solid underline orange;
+}
+
+/*Apply Styling.....*/
+
+.form-view {
+  box-shadow: 0 12px 12px 33px rgba(141,144, 141, 0.6);
+
+}
+
+.input-field {
+  padding: 10px;
+  /*border: 1px solid slateblue;*/
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.field {
+  border: 1px solid orange;
+  padding: 5px;
+  border-radius: 10px;
+}
+ .field input, select {
+   width: 95%;
+   border: none;
+   background-color: transparent;
+   padding: 10px;
+   border-radius: 10px;
+   color: #131f32;
+   text-align: center;
+   font-size: 1.2rem;
+   
+ }
+select {
+  color: white;/*
+  width: 70%;*/
+}
+.div-btn {
+  text-align: center;
+  padding: 20px;
+}
+.btn {
+  width: 25%;
+  border: 1px solid slateblue;
+  border-radius: 10px;
+  font-size: 0.9em;
+  color: white;
+  background-color: transparent;
+  font-weight: 500;
+  padding: 10px;
+  visibility: hidden;
+}
+.unhide {
+  visibility: visible;
+}
+.err-detail {
+  font-size: 0.8rem;
+  color: aliceblue;
+  margin-top: 5px;
+  
+}
+
+.field legend {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+.wrong {color: orangered;}.crt {color: lawngreen;} sup {color: orangered;}
+
+.btnApp {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 12px 23px rgba(133,123,123, 0.5);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.what {
+  background-color: #40E65F;
+}
+.tele {
+  background-color: #31A6E0;
+}
+.mail {
+  background-color: #EA4335;
+}
+.phone {
+  background-color: #17CF88;
+}
+.sms {
+  background-color: #22ACFF;
+}
